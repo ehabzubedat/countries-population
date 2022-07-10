@@ -1,0 +1,118 @@
+/* body */
+body {
+    color: #f3f3f3;
+    background-color: #000;
+}
+
+/* container */
+.container {
+    width: 800px;
+}
+
+/* title */
+.title {
+    margin-bottom: 25px;
+}
+
+/* input,button - focus */
+input:focus,
+button:focus {
+    box-shadow: none !important;
+}
+
+/* h1 */
+h1 {
+    font-size: 40px;
+}
+
+/* h3 */
+h3 {
+    font-size: 20px;
+}
+
+.region-table tr,
+.region-table td {
+    text-align: center;
+}
+
+#population {
+    margin-bottom: 16px;
+}
+
+/* ./region table */
+
+/* loader */
+#loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid red;
+    width: 120px;
+    height: 120px;
+    margin: 150px auto;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* loader */
+
+/* swal */
+.swal-footer {
+    text-align: center;
+}
+
+.swal-button:focus {
+    box-shadow: none;
+}
+
+button.swal-button.swal-button--confirm {
+    transition: all 500ms;
+    background-color: #00C851;
+}
+
+button.swal-button.swal-button--confirm:hover {
+    background-color: #00a843;
+}
+
+/* swal */
+
+@media screen and (max-width: 576px) {
+
+    /* container */
+    .container {
+        width: unset;
+    }
+
+    /* h1 */
+    h1 {
+        font-size: 30px;
+    }
+
+    /* h3 */
+    h3 {
+        font-size: 15px;
+    }
+
+
+}
